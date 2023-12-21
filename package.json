@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "parcel ./*.html ",
-    "build": "parcel build ./*.html --out-dir ./dist"
+    "start": "parcel ./*.html",
+    "build": "parcel build ./*.html && mv dist .tmp_dist && mv .tmp_dist dist"
   },
   "author": "",
   "license": "ISC",
@@ -12,3 +12,4 @@
     "parcel": "^2.7.0"
   }
 }
+
