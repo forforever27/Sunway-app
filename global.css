@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  inset: 0;
+}
+
+:root {
+  /* fonts */
+  --font-segoe-ui: "Segoe UI";
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-mini: 15px;
+  --font-size-smi: 13px;
+  --font-size-xs: 12px;
+  --font-size-2xs: 11px;
+  --font-size-3xl: 22px;
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --color-seashell: #fef6f2;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gray: #4b2532;
+  --color-brown: #690526;
+  --color-firebrick: #c40000;
+  --color-dimgray: #707070;
+
+  /* Border radiuses */
+  --br-mini: 15px;
+  --br-11xs-5: 1.5px;
+  --br-9xl: 28px;
+  --br-3xs: 10px;
+  --br-11xl: 30px;
+}

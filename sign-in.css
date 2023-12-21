@@ -1,0 +1,169 @@
+.sign-in-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 0 var(--br-3xs) var(--br-3xs);
+  background: linear-gradient(180deg, #f2dcd0, #fff);
+  box-shadow: 0 3px 6px rgba(94, 55, 68, 0.38);
+  width: 360px;
+  height: 231px;
+}
+.welcome-back {
+  top: 150px;
+  left: 101px;
+  font-size: var(--font-size-3xl);
+}
+.hello-there-sign3,
+.sign-in5,
+.welcome-back {
+  position: absolute;
+  letter-spacing: 0.02px;
+}
+.hello-there-sign3 {
+  top: 187px;
+  left: 67px;
+}
+.sign-in5 {
+  top: calc(50% - 9.5px);
+  left: calc(50% - 23px);
+}
+.sign-in-wrapper {
+  position: absolute;
+  bottom: 67px;
+  left: 37px;
+  border-radius: var(--br-9xl);
+  background-color: var(--color-brown);
+  width: 286px;
+  height: 55px;
+  cursor: pointer;
+  color: var(--color-white);
+}
+.dont-have,
+.sign-up3 {
+  letter-spacing: 0.01px;
+}
+.sign-up3 {
+  font-size: var(--font-size-smi);
+}
+.dont-have-container {
+  position: absolute;
+  bottom: 15px;
+  left: 89px;
+  white-space: pre-wrap;
+  cursor: pointer;
+  font-size: var(--font-size-xs);
+}
+
+.icon-ionic-ios-arrow-dropleft-7 {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out; 
+}
+
+.icon-ionic-ios-arrow-dropleft-7:hover {
+  transform: scale(1.1); 
+}
+
+.icon-ionic-ios-arrow-dropleft-7,
+.nopath-copy-210 {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+}
+.nopath-copy-210 {
+  top: 50px;
+  left: 131px;
+  width: 98px;
+  height: 98px;
+}
+.sign-in-item {
+  position: absolute;
+  top: 288px;
+  left: 38px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-dimgray);
+  box-sizing: border-box;
+  width: 284px;
+  height: 40px;
+}
+.email-or-mobile1,
+.enter-your-email4 {
+  position: absolute;
+  display: inline-block;
+  text-align: left;
+}
+.email-or-mobile1 {
+  top: 263px;
+  left: 37px;
+  letter-spacing: 0.02px;
+  font-weight: 600;
+  width: 287px;
+}
+.enter-your-email4 {
+  top: 298px;
+  left: 52px;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.01px;
+  width: 257px;
+  opacity: 0.6;
+}
+.sign-in-inner {
+  position: absolute;
+  top: 365px;
+  left: 38px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-dimgray);
+  box-sizing: border-box;
+  width: 284px;
+  height: 40px;
+}
+.enter-your-password,
+.password3 {
+  position: absolute;
+  display: inline-block;
+  text-align: left;
+}
+.password3 {
+  top: 340px;
+  left: 37px;
+  letter-spacing: 0.02px;
+  font-weight: 600;
+  width: 287px;
+}
+.enter-your-password {
+  top: 375px;
+  left: 52px;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.01px;
+  width: 257px;
+  opacity: 0.6;
+}
+.forgot-password4 {
+  position: absolute;
+  top: 425px;
+  left: 37px;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.01px;
+  color: #181b67;
+  cursor: pointer;
+}
+.sign-in4 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 760px;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-segoe-ui);
+}

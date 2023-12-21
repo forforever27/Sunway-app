@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./o-t-p.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Segoe UI:ital,wght@0,400;0,600;0,700;0,900;1,400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="otp">
+      <div class="otp-child"></div>
+      <b class="forgot-password1">Forgot Password?</b>
+      <i class="dont-worry-it1">Don't worry! it happens!</i>
+      <div class="continue-wrapper" id="groupContainer">
+        <div class="continue">Continue</div>
+      </div>
+      <img
+        class="icon-ionic-ios-arrow-dropleft-5"
+        alt=""
+        src="./public/icon-ioniciosarrowdropleftcircle@2x.png"
+      />
+
+      <img class="nopath-copy-28" alt="" src="./public/nopath--copy-2@2x.png" />
+
+      <b class="enter-otp">Enter OTP</b>
+      <div class="an-4-digit-code-container">
+        <p class="an-4-digit-code">An 4-digit code has been sent to</p>
+        <p class="an-4-digit-code">xxxxxxxxxx</p>
+      </div>
+      <div class="otp-item"></div>
+      <div class="otp-inner"></div>
+      <div class="otp-child1"></div>
+      <div class="didnt-receive-container">
+        <div class="didnt-receive">Didn't receive? </div>
+        <b class="resend">Resend</b>
+      </div>
+      <div class="otp-child2"></div>
+    </div>
+
+    <script>
+      var groupContainer = document.getElementById("groupContainer");
+      if (groupContainer) {
+        groupContainer.addEventListener("click", function (e) {
+          window.location.href = "./reset-password.html";
+        });
+      }
+
+	  var arrowIcon = document.querySelector(".icon-ionic-ios-arrow-dropleft-5");
+  	  if (arrowIcon) {
+        arrowIcon.addEventListener("click", function (e) {
+          window.location.href = "./forgot-password.html";
+        });
+      }
+		
+      </script>
+  </body>
+</html>

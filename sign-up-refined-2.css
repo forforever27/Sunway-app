@@ -1,0 +1,269 @@
+.sign-up-refined-2-child,
+.sign-up-refined-2-item {
+  position: absolute;
+  left: 0;
+  object-fit: cover;
+  opacity: 0.58;
+}
+.sign-up-refined-2-child {
+  top: 123px;
+  width: 474px;
+  height: 529px;
+}
+.sign-up-refined-2-item {
+  bottom: -123px;
+  width: 498px;
+  height: 553px;
+}
+.sign-up-refined-2-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 0 var(--br-3xs) var(--br-3xs);
+  background: linear-gradient(180deg, #f2dcd0, #fff);
+  box-shadow: 0 3px 6px rgba(94, 55, 68, 0.38);
+  width: 360px;
+  height: 231px;
+}
+.welcome1 {
+  top: 143px;
+  left: 128px;
+  font-size: var(--font-size-3xl);
+  text-align: center;
+}
+.hello-there-sign1,
+.sign-up1,
+.welcome1 {
+  position: absolute;
+  letter-spacing: 0.02px;
+}
+.hello-there-sign1 {
+  top: 177px;
+  left: 65px;
+  text-align: center;
+}
+.sign-up1 {
+  top: calc(50% - 9.5px);
+  left: calc(50% - 26px);
+}
+.sign-up-container {
+  position: absolute;
+  bottom: 81px;
+  left: 37px;
+  border-radius: var(--br-9xl);
+  background-color: var(--color-brown);
+  width: 286px;
+  height: 55px;
+  cursor: pointer;
+  text-align: center;
+  color: var(--color-white);
+}
+.i-accept-the-container1 {
+  position: absolute;
+  top: 579px;
+  left: 68px;
+  font-size: var(--font-size-2xs);
+  letter-spacing: 0.01px;
+  line-height: 14px;
+  cursor: pointer;
+}
+.sign-up-refined-2-child1 {
+  position: absolute;
+  top: 579px;
+  left: 44px;
+  border-radius: var(--br-11xs-5);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 14px;
+  height: 14px;
+}
+.already-have-an2,
+.sign-in2 {
+  letter-spacing: 0.01px;
+}
+.sign-in2 {
+  font-size: var(--font-size-smi);
+  text-decoration: underline;
+}
+.already-have-an-container2 {
+  position: absolute;
+  bottom: 30px;
+  left: 88px;
+  white-space: pre-wrap;
+  text-align: center;
+  cursor: pointer;
+  font-size: var(--font-size-xs);
+}
+
+.icon-ionic-ios-arrow-dropleft-2 {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out; 
+}
+
+.icon-ionic-ios-arrow-dropleft-2:hover {
+  transform: scale(1.1); 
+}
+
+.icon-ionic-ios-arrow-dropleft-2,
+.nopath-copy-25 {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+}
+.nopath-copy-25 {
+  top: 48px;
+  left: 131px;
+  width: 98px;
+  height: 98px;
+}
+.sign-up-refined-2-child2 {
+  position: absolute;
+  top: 288px;
+  left: 38px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+  width: 284px;
+  height: 40px;
+}
+.enter-your-name1,
+.full-name1 {
+  position: absolute;
+  display: inline-block;
+}
+.full-name1 {
+  top: 263px;
+  left: 37px;
+  letter-spacing: 0.02px;
+  font-weight: 600;
+  width: 287px;
+}
+.enter-your-name1 {
+  top: 298px;
+  left: 52px;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.01px;
+  width: 257px;
+  opacity: 0.6;
+}
+.sign-up-refined-2-child3 {
+  position: absolute;
+  top: 365px;
+  left: 38px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+  width: 284px;
+  height: 40px;
+}
+.email1,
+.enter-your-email1 {
+  position: absolute;
+  display: inline-block;
+}
+.email1 {
+  top: 340px;
+  left: 37px;
+  letter-spacing: 0.02px;
+  font-weight: 600;
+  width: 287px;
+}
+.enter-your-email1 {
+  top: 375px;
+  left: 52px;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.01px;
+  width: 257px;
+  opacity: 0.6;
+}
+.sign-up-refined-2-child4 {
+  position: absolute;
+  top: 442px;
+  left: 38px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+  width: 284px;
+  height: 40px;
+}
+.enter-your-mobile1,
+.mobile-number1 {
+  position: absolute;
+  display: inline-block;
+}
+.mobile-number1 {
+  top: 417px;
+  left: 37px;
+  letter-spacing: 0.02px;
+  font-weight: 600;
+  width: 287px;
+}
+.enter-your-mobile1 {
+  top: 452px;
+  left: 52px;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.01px;
+  width: 257px;
+  opacity: 0.6;
+}
+.sign-up-refined-2-child5 {
+  position: absolute;
+  top: 519px;
+  left: 38px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+  width: 284px;
+  height: 40px;
+}
+.enter-password1,
+.password1 {
+  position: absolute;
+  display: inline-block;
+}
+.password1 {
+  top: 494px;
+  left: 37px;
+  letter-spacing: 0.02px;
+  font-weight: 600;
+  width: 287px;
+}
+.enter-password1 {
+  top: 529px;
+  left: 52px;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.01px;
+  width: 257px;
+  opacity: 0.6;
+}
+.icon-awesome-check-square {
+  position: absolute;
+  top: 579px;
+  left: 44px;
+  width: 14.08px;
+  height: 14.08px;
+  object-fit: cover;
+}
+.sign-up-refined-2 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 760px;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-segoe-ui);
+}
